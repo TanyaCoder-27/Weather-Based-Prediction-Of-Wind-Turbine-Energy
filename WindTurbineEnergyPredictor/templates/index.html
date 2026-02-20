@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Energy Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page-header">
+        <h1>Weather-Based Prediction of Wind Turbine Energy</h1>
+    </div>
+
+    <div class="container intro-container">
+        
+        <div class="left intro-text">
+            <h2>A Next-Generation Approach to Renewable Energy Management</h2>
+
+            <div class="content-block">
+                <p>
+                    The global energy landscape is evolving faster than ever before. 
+                    With rising electricity demand and growing environmental concerns, 
+                    nations are investing heavily in sustainable energy technologies.
+                </p>
+                <p>
+                    Wind energy has emerged as one of the most promising solutions. 
+                    Modern turbines are capable of generating electricity even at lower wind speeds.
+                </p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>Intelligent Wind Insights</h3>
+                <p>
+                    Accurate wind prediction is the backbone of efficient renewable energy management. 
+                    Advanced forecasting models help energy providers anticipate production levels and 
+                    maximize clean power generation.
+                </p>
+            </div>
+
+            <div class="action-wrapper">
+                <a href="/predict">
+                    <button class="btn-primary">
+                        START YOUR WIND ENERGY ANALYSIS
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="right intro-image">
+            <div class="image-card">
+                <img src="{{ url_for('static', filename='wm.jpg') }}" alt="Wind Turbine Illustration">
+                <div class="caption">
+                    Harnessing Nature’s Power Through Smart Technology
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
