@@ -232,6 +232,12 @@ This will generate/update the `power_prediction.sav` file.
 
 ---
 
+## 📂 Project Demo
+
+You can view the complete project demo:
+
+🔗 [Click Here to View on Google Drive](https://drive.google.com/file/d/10CA2H_psp2Wf66pTdh6i-GOLNXWpD_VI/view?usp=sharing)
+
 ## 👩‍💻 Author
 
 Tanya Coder  
